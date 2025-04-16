@@ -1,0 +1,44 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment and virtualenv
+venv/
+env/
+.venv/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+*.coveragerc
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.cache/
+
+# Django migrations
+*/migrations/
+
+# Database files
+*.sqlite3
+*.db
+
+# Backup files
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
