@@ -20,10 +20,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    "daphne",
     'django.contrib.staticfiles',
-    'django_extensions',
     'corsheaders',
     'drf_spectacular',
+    'channels',
 
     'rest_framework',
     'rest_framework.authtoken',
@@ -71,6 +72,12 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'SimpleChat.wsgi.application'
+ASGI_APPLICATION = "SimpleChat.asgi.application"
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    }
+}
 
 # Database
 DATABASES = {

@@ -1,7 +1,9 @@
-## Лабораторна робота №1
+## Лабораторна робота №2
+
+*Стан проекту, що відповідає етапу конкретної лабораторної роботи можна переглянути у відповідній гілці репозиторію.*
 
 *Автор:* Костюков С.В. КВ-41мп
 
 *Обрана тематика:* Простий чат
 
-*URL на звіт:* https://docs.google.com/document/d/1a-FQb08TwhFU3cy5wW-a--hffYUkAi63pw5nyrNWOqY/edit?usp=sharing
+*URL на звіт:* https://docs.google.com/document/d/1I0W9VJ5RJ5lIqWRQPVajCogGFyH90dS_imDLuEEoJDo/edit?usp=sharing
